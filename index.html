@@ -681,7 +681,7 @@
 		</p>
 	</div>
 	<div class="item__buy">
-		<button class="btn btn_buy">+ В корзину</button>
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
 		<div class="counter">
 			<input type="number" value="1" data-max="11">
 			<div class="counter__controls">
@@ -691,6 +691,7 @@
 		</div>
 	</div>
 </div>
+
 						<div class="item">
 	<a href="#" class="item__link"></a>
 	<div class="item__common">
@@ -715,7 +716,7 @@
 		</p>
 	</div>
 	<div class="item__buy">
-		<button class="btn btn_buy">+ В корзину</button>
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
 		<div class="counter">
 			<input type="number" value="1" data-max="11">
 			<div class="counter__controls">
@@ -725,6 +726,7 @@
 		</div>
 	</div>
 </div>
+
 						<div class="item">
 	<a href="#" class="item__link"></a>
 	<div class="item__common">
@@ -749,7 +751,7 @@
 		</p>
 	</div>
 	<div class="item__buy">
-		<button class="btn btn_buy">+ В корзину</button>
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
 		<div class="counter">
 			<input type="number" value="1" data-max="11">
 			<div class="counter__controls">
@@ -759,6 +761,7 @@
 		</div>
 	</div>
 </div>
+
 						<div class="item">
 	<a href="#" class="item__link"></a>
 	<div class="item__common">
@@ -783,7 +786,7 @@
 		</p>
 	</div>
 	<div class="item__buy">
-		<button class="btn btn_buy">+ В корзину</button>
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
 		<div class="counter">
 			<input type="number" value="1" data-max="11">
 			<div class="counter__controls">
@@ -793,6 +796,7 @@
 		</div>
 	</div>
 </div>
+
 						<div class="item">
 	<a href="#" class="item__link"></a>
 	<div class="item__common">
@@ -817,7 +821,7 @@
 		</p>
 	</div>
 	<div class="item__buy">
-		<button class="btn btn_buy">+ В корзину</button>
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
 		<div class="counter">
 			<input type="number" value="1" data-max="11">
 			<div class="counter__controls">
@@ -827,6 +831,7 @@
 		</div>
 	</div>
 </div>
+
 						<div class="item">
 	<a href="#" class="item__link"></a>
 	<div class="item__common">
@@ -851,7 +856,7 @@
 		</p>
 	</div>
 	<div class="item__buy">
-		<button class="btn btn_buy">+ В корзину</button>
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
 		<div class="counter">
 			<input type="number" value="1" data-max="11">
 			<div class="counter__controls">
@@ -861,6 +866,7 @@
 		</div>
 	</div>
 </div>
+
 						<div class="item">
 	<a href="#" class="item__link"></a>
 	<div class="item__common">
@@ -885,7 +891,7 @@
 		</p>
 	</div>
 	<div class="item__buy">
-		<button class="btn btn_buy">+ В корзину</button>
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
 		<div class="counter">
 			<input type="number" value="1" data-max="11">
 			<div class="counter__controls">
@@ -895,6 +901,7 @@
 		</div>
 	</div>
 </div>
+
 						<div class="item">
 	<a href="#" class="item__link"></a>
 	<div class="item__common">
@@ -919,7 +926,7 @@
 		</p>
 	</div>
 	<div class="item__buy">
-		<button class="btn btn_buy">+ В корзину</button>
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
 		<div class="counter">
 			<input type="number" value="1" data-max="11">
 			<div class="counter__controls">
@@ -929,6 +936,7 @@
 		</div>
 	</div>
 </div>
+
 					</div>
 				</section>
 
@@ -1402,7 +1410,7 @@
 		</p>
 	</div>
 	<div class="item__buy">
-		<button class="btn btn_buy">+ В корзину</button>
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
 		<div class="counter">
 			<input type="number" value="1" data-max="11">
 			<div class="counter__controls">
@@ -1412,6 +1420,7 @@
 		</div>
 	</div>
 </div>
+
 						<div class="item">
 	<a href="#" class="item__link"></a>
 <!-- 	<div class="item__common">
@@ -1981,7 +1990,336 @@
 </footer>
 
 
+	<div class="page__modals">
+		<div class="modal modal_buy modal_wide" data-modal="buy">
+			<button class="modal__close" data-izimodal-close></button>
+			<div class="modal__inner">
+				<div class="modal__line">
+					<span class="modal__title">Товар добавлен в корзину</span>
+					<div class="modal__block modal__block_items">
+						<a href="#">3 товара на сумму</a>
+						<strong>2 787 руб.</strong>
+					</div>
+				</div>
+				<div class="modal__line">
+					<div class="m-item">
+						<div class="m-item__pic">
+							<img src="img/catalog/43543_small.jpg" alt="">
+						</div>
+						<div class="m-item__info">
+							<p class="m-item__title"><a href="#">	Супермаска Revlon Professional UniqOne 300 мл</a>7220314000</p>
+							<div class="m-item__price">
+								<div>
+									<span>Розница:</span>
+									<strong>769 руб.</strong>
+								</div>
+								<div>
+									<span>Опт:</span>
+									<strong>679 руб.</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal__block">
+						<button class="btn btn_big">К оформлению</button>
+						<a href="#" class="modal__close-link" data-izimodal-close>Закрыть и продолжить покупки</a>
+					</div>
+
+				</div>
+
+
+					<span class="caption">С этим товаром покупают</span>
+					<div class="modal__slider">
+						<div class="item">
+	<a href="#" class="item__link"></a>
+	<div class="item__common">
+		<span class="item__lbl item__lbl_hit">Хит</span>
+		<span class="item__lbl item__lbl_sale">%</span>
+		<span class="item__lbl item__lbl_new"></span>
+	</div>
+	<div class="item__img">
+		<img src="img/catalog/itemm.png" alt="">
+	</div>
+	<div class="item__title">
+		<span>Скраб для тела Кокос и Арбуз / Fresh Coconut&Watermelon Sugar Body Scrub, Hempz 176g</span>
+	</div>
+	<div class="item__price">
+		<p class="item__price-big">
+			<strong>1 119 р.</strong>
+			<span>Розница</span>
+		</p>
+		<p>
+			<strong>1 119 р.</strong>
+			<span>Опт</span>
+		</p>
+	</div>
+	<div class="item__buy">
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
+		<div class="counter">
+			<input type="number" value="1" data-max="11">
+			<div class="counter__controls">
+				<button class="counter__btn counter__btn_up"></button>
+				<button class="counter__btn counter__btn_down"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+						<div class="item">
+	<a href="#" class="item__link"></a>
+	<div class="item__common">
+		<span class="item__lbl item__lbl_hit">Хит</span>
+		<span class="item__lbl item__lbl_sale">%</span>
+		<span class="item__lbl item__lbl_new"></span>
+	</div>
+	<div class="item__img">
+		<img src="img/catalog/itemm.png" alt="">
+	</div>
+	<div class="item__title">
+		<span>Скраб для тела Кокос и Арбуз / Fresh Coconut&Watermelon Sugar Body Scrub, Hempz 176g</span>
+	</div>
+	<div class="item__price">
+		<p class="item__price-big">
+			<strong>1 119 р.</strong>
+			<span>Розница</span>
+		</p>
+		<p>
+			<strong>1 119 р.</strong>
+			<span>Опт</span>
+		</p>
+	</div>
+	<div class="item__buy">
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
+		<div class="counter">
+			<input type="number" value="1" data-max="11">
+			<div class="counter__controls">
+				<button class="counter__btn counter__btn_up"></button>
+				<button class="counter__btn counter__btn_down"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+						<div class="item">
+	<a href="#" class="item__link"></a>
+	<div class="item__common">
+		<span class="item__lbl item__lbl_hit">Хит</span>
+		<span class="item__lbl item__lbl_sale">%</span>
+		<span class="item__lbl item__lbl_new"></span>
+	</div>
+	<div class="item__img">
+		<img src="img/catalog/itemm.png" alt="">
+	</div>
+	<div class="item__title">
+		<span>Скраб для тела Кокос и Арбуз / Fresh Coconut&Watermelon Sugar Body Scrub, Hempz 176g</span>
+	</div>
+	<div class="item__price">
+		<p class="item__price-big">
+			<strong>1 119 р.</strong>
+			<span>Розница</span>
+		</p>
+		<p>
+			<strong>1 119 р.</strong>
+			<span>Опт</span>
+		</p>
+	</div>
+	<div class="item__buy">
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
+		<div class="counter">
+			<input type="number" value="1" data-max="11">
+			<div class="counter__controls">
+				<button class="counter__btn counter__btn_up"></button>
+				<button class="counter__btn counter__btn_down"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+						<div class="item">
+	<a href="#" class="item__link"></a>
+	<div class="item__common">
+		<span class="item__lbl item__lbl_hit">Хит</span>
+		<span class="item__lbl item__lbl_sale">%</span>
+		<span class="item__lbl item__lbl_new"></span>
+	</div>
+	<div class="item__img">
+		<img src="img/catalog/itemm.png" alt="">
+	</div>
+	<div class="item__title">
+		<span>Скраб для тела Кокос и Арбуз / Fresh Coconut&Watermelon Sugar Body Scrub, Hempz 176g</span>
+	</div>
+	<div class="item__price">
+		<p class="item__price-big">
+			<strong>1 119 р.</strong>
+			<span>Розница</span>
+		</p>
+		<p>
+			<strong>1 119 р.</strong>
+			<span>Опт</span>
+		</p>
+	</div>
+	<div class="item__buy">
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
+		<div class="counter">
+			<input type="number" value="1" data-max="11">
+			<div class="counter__controls">
+				<button class="counter__btn counter__btn_up"></button>
+				<button class="counter__btn counter__btn_down"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+						<div class="item">
+	<a href="#" class="item__link"></a>
+	<div class="item__common">
+		<span class="item__lbl item__lbl_hit">Хит</span>
+		<span class="item__lbl item__lbl_sale">%</span>
+		<span class="item__lbl item__lbl_new"></span>
+	</div>
+	<div class="item__img">
+		<img src="img/catalog/itemm.png" alt="">
+	</div>
+	<div class="item__title">
+		<span>Скраб для тела Кокос и Арбуз / Fresh Coconut&Watermelon Sugar Body Scrub, Hempz 176g</span>
+	</div>
+	<div class="item__price">
+		<p class="item__price-big">
+			<strong>1 119 р.</strong>
+			<span>Розница</span>
+		</p>
+		<p>
+			<strong>1 119 р.</strong>
+			<span>Опт</span>
+		</p>
+	</div>
+	<div class="item__buy">
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
+		<div class="counter">
+			<input type="number" value="1" data-max="11">
+			<div class="counter__controls">
+				<button class="counter__btn counter__btn_up"></button>
+				<button class="counter__btn counter__btn_down"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+						<div class="item">
+	<a href="#" class="item__link"></a>
+	<div class="item__common">
+		<span class="item__lbl item__lbl_hit">Хит</span>
+		<span class="item__lbl item__lbl_sale">%</span>
+		<span class="item__lbl item__lbl_new"></span>
+	</div>
+	<div class="item__img">
+		<img src="img/catalog/itemm.png" alt="">
+	</div>
+	<div class="item__title">
+		<span>Скраб для тела Кокос и Арбуз / Fresh Coconut&Watermelon Sugar Body Scrub, Hempz 176g</span>
+	</div>
+	<div class="item__price">
+		<p class="item__price-big">
+			<strong>1 119 р.</strong>
+			<span>Розница</span>
+		</p>
+		<p>
+			<strong>1 119 р.</strong>
+			<span>Опт</span>
+		</p>
+	</div>
+	<div class="item__buy">
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
+		<div class="counter">
+			<input type="number" value="1" data-max="11">
+			<div class="counter__controls">
+				<button class="counter__btn counter__btn_up"></button>
+				<button class="counter__btn counter__btn_down"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+						<div class="item">
+	<a href="#" class="item__link"></a>
+	<div class="item__common">
+		<span class="item__lbl item__lbl_hit">Хит</span>
+		<span class="item__lbl item__lbl_sale">%</span>
+		<span class="item__lbl item__lbl_new"></span>
+	</div>
+	<div class="item__img">
+		<img src="img/catalog/itemm.png" alt="">
+	</div>
+	<div class="item__title">
+		<span>Скраб для тела Кокос и Арбуз / Fresh Coconut&Watermelon Sugar Body Scrub, Hempz 176g</span>
+	</div>
+	<div class="item__price">
+		<p class="item__price-big">
+			<strong>1 119 р.</strong>
+			<span>Розница</span>
+		</p>
+		<p>
+			<strong>1 119 р.</strong>
+			<span>Опт</span>
+		</p>
+	</div>
+	<div class="item__buy">
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
+		<div class="counter">
+			<input type="number" value="1" data-max="11">
+			<div class="counter__controls">
+				<button class="counter__btn counter__btn_up"></button>
+				<button class="counter__btn counter__btn_down"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+						<div class="item">
+	<a href="#" class="item__link"></a>
+	<div class="item__common">
+		<span class="item__lbl item__lbl_hit">Хит</span>
+		<span class="item__lbl item__lbl_sale">%</span>
+		<span class="item__lbl item__lbl_new"></span>
+	</div>
+	<div class="item__img">
+		<img src="img/catalog/itemm.png" alt="">
+	</div>
+	<div class="item__title">
+		<span>Скраб для тела Кокос и Арбуз / Fresh Coconut&Watermelon Sugar Body Scrub, Hempz 176g</span>
+	</div>
+	<div class="item__price">
+		<p class="item__price-big">
+			<strong>1 119 р.</strong>
+			<span>Розница</span>
+		</p>
+		<p>
+			<strong>1 119 р.</strong>
+			<span>Опт</span>
+		</p>
+	</div>
+	<div class="item__buy">
+		<button class="btn btn_buy" data-open="buy">+ В корзину</button>
+		<div class="counter">
+			<input type="number" value="1" data-max="11">
+			<div class="counter__controls">
+				<button class="counter__btn counter__btn_up"></button>
+				<button class="counter__btn counter__btn_down"></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+					</div>
+
+			</div>
+		</div>
+	</div>
+
 	<script src="js/libs.js"></script>
 	<script src="js/script.js"></script>
+
+
 </body>
 </html>
